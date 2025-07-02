@@ -7,9 +7,13 @@ alpine_XrayR最新可用
 # 安装脚本
 
 ```shell script
-apk add wget ; wget -O /usr/bin/xrayr https://raw.githubusercontent.com/mingge9527/New-XrayR-Alpine/main/xrayr.sh ; chmod 777 /usr/bin/xrayr ; xrayr
+wget -N  /usr/bin/xrayr https://github.com/324202/alpine_XrayR/blob/150d6ce46e2fa98b13f16ed499532b3513d3c592/install-xrayr.sh ; chmod +x install-xrayr.sh && bash install-xrayr.sh
 ```
-下次运行即可直接输入
+手动运行
 ```shell script
-xrayr
+/usr/bin/XrayR --config /etc/XrayR/config.yml
+```
+后台运行
+```shell script
+/usr/bin/XrayR --config /etc/XrayR/config.yml &
 ```
