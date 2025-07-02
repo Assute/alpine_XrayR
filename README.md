@@ -17,3 +17,8 @@ wget -N  /usr/bin/xrayr https://github.com/324202/alpine_XrayR/blob/150d6ce46e2f
 ```shell script
 /usr/bin/XrayR --config /etc/XrayR/config.yml &
 ```
+本项目基于
+
+https://github.com/XrayR-project/XrayR
+
+二次开发
