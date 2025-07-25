@@ -7,7 +7,7 @@ alpine_XrayR最新可用
 # 安装脚本
 
 ```shell script
-wget -N  /usr/bin/xrayr https://github.com/Assute/alpine_XrayR/blob/main/install-xrayr.sh ; chmod +x install-xrayr.sh && bash install-xrayr.sh
+wget -N  /usr/bin/xrayr https://github.com/Assute/alpine_XrayR/raw/main/install-xrayr.sh ; chmod +x install-xrayr.sh && bash install-xrayr.sh
 ```
 手动运行
 ```shell script
